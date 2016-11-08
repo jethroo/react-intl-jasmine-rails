@@ -1,3 +1,4 @@
 <main class="dashboard">
-  <%= react_component('DashBoard', user: 'You') %>
+  <%= react_component('I18nWrapper', user: 'You', locale: :de,
+    messages: File.read("config/locales/react/de/i18n.json")) %>
 </main>

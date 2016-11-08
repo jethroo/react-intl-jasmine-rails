@@ -1,0 +1,13 @@
+{
+  "name": "react-intl-jasmine-rails",
+  "dependencies": {
+    "browserify": "~10.2.4",
+    "browserify-incremental": "^3.0.1",
+    "react": "^15.3.2",
+    "react-intl": "^2.1.5"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">= 0.10"
+  }
+}
