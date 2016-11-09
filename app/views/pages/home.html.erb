@@ -1,4 +1,8 @@
+<% I18n.available_locales.each do |locale| %>
+  <%= link_to locale.upcase, root_path(locale: locale) %>
+<% end %>
+
 <main class="dashboard">
-  <%= react_component('I18nWrapper', user: 'You', locale: :de,
-    messages: File.read("config/locales/react/de/i18n.json")) %>
+  <%= react_component('I18nWrapper', user: 'You', locale: I18n.locale,
+    messages: File.read("config/locales/react/#{I18n.locale}/i18n.json")) %>
 </main>
