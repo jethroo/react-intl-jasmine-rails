@@ -3,7 +3,7 @@ class Dashboard extends React.Component {
     return (
       <div>
         <ReactIntl.FormattedMessage id="dashboard.hello"
-          defaultMessage=">Oh no!" values={{name: this.props.user}}
+          defaultMessage="translation missing!" values={{name: this.props.user}}
         />
       </div>
     );
