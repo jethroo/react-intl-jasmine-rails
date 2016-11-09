@@ -13,5 +13,7 @@ module ReactIntlJasmineRails
     # -- all .rb files in that directory are automatically loaded.
 
     config.i18n.available_locales = [:de, :en]
+
+    config.react.addons = true
   end
 end

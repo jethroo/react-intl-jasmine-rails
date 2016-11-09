@@ -1,4 +1,4 @@
-class DashBoard extends React.Component {
+class Dashboard extends React.Component {
   render() {
     return (
       <div>
