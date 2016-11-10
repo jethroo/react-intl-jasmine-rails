@@ -3,6 +3,7 @@
   "dependencies": {
     "browserify": "~10.2.4",
     "browserify-incremental": "^3.0.1",
+    "intl": "^1.2.5",
     "react": "^15.3.2",
     "react-intl": "^2.1.5"
   },
