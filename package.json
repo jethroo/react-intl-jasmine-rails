@@ -1,8 +1,13 @@
 {
   "name": "react-intl-jasmine-rails",
   "dependencies": {
+    "browserify": "~10.2.4",
+    "browserify-incremental": "^3.0.1",
     "es6-promise": "^4.0.5",
+    "intl": "^1.2.5",
     "intl-locales-supported": "^1.0.0",
+    "react": "^15.3.2",
+    "react-intl": "^2.1.5",
     "whatwg-fetch": "^1.0.0"
   },
   "private": true,

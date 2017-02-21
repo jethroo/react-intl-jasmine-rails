@@ -1,16 +1,13 @@
 class Dashboard extends React.Component {
-  foo() {
+  sayHello(user) {
     ReactIntl.injectIntl(MyComponent).bind(this)
-    return (<MyComponent />)
+    return (<MyComponent user={user}/>)
   }
 
   render() {
     return (
       <div>
-        <ReactIntl.FormattedMessage id="dashboard.hello"
-          defaultMessage="translation missing!" values={{name: this.props.user}}
-        />
-        {this.foo()}
+        {this.sayHello(this.props.user)}
       </div>
     );
   }

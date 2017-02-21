@@ -4,7 +4,7 @@ class MyComponent extends React.Component {
           <div>
             <ReactIntl.FormattedMessage id="dashboard.hello"
               defaultMessage="translation missing!"
-              values={{name: 'FOOO'}}
+              values={{name: this.props.user}}
             >
               {(message) => <p>{message}</p>}
             </ReactIntl.FormattedMessage>
