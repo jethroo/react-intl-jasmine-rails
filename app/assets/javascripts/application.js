@@ -17,6 +17,7 @@
 //= require react_ujs
 
 //= require 'react_components/dashboard'
+//= require 'react_components/my_component'
 //= require 'react_components/i18n_wrapper'
 
 var locale_de = window.locale_de = global.locale_de  = require('react-intl/locale-data/de')
